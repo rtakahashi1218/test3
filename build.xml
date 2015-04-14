@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <project name="getFile" basedir="/var/lib/jenkins/workspace/getFile" default="test">
   <target name="test">
-    <exec executable="/var/lib/jenkins/workspace/getFile/test">
+    <exec executable="test">
     </exec>
   </target>
 </project>
