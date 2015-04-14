@@ -1,4 +1,7 @@
 /* test code */
 <?php
-  return true;
+  public function test()
+  {
+    $this->assertEquals(true, true);
+  }
 ?>
